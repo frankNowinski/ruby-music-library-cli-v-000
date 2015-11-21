@@ -1,6 +1,6 @@
 describe 'Findable Songs' do
   describe ".find_by_name" do
-    it 'fins a song instance in @@all by the name property of the song' do
+    it 'finds a song instance in @@all by the name property of the song' do
       song = Song.new("In an Aeroplane Over the Sea")
       song.save
 
